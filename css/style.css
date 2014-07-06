@@ -1,0 +1,151 @@
+/*
+  * 0 - TOOLS & HACKS
+  * 1 - MAIN
+  * 2 - HEADER
+  * 3 - FOOTER
+*/
+
+
+/*------------ 0 - Tools & Hacks ------------*/
+
+body {
+    -webkit-animation: fadein 750ms; /* Safari and Chrome */
+       -moz-animation: fadein 750ms; /* Firefox */
+        -ms-animation: fadein 750ms; /* Internet Explorer */
+         -o-animation: fadein 750ms; /* Opera */
+            animation: fadein 750ms;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+/* Firefox */
+@-moz-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}​
+
+/* Opera */
+@-o-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}​
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.flt-left {
+    float: left;
+}
+
+.flt-right {
+    float:right;
+}
+
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+html, body {
+    min-width: 100%;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+}
+
+/*------------ 1 - Main ------------*/
+
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+em {
+    font-weight: 400;
+}
+
+
+/*------------ 2 - Header ------------*/
+
+
+
+/*------------ 3 - Footer  -----------*/
+
+
+
+
+
+/*DEBUG*/
+/** {background-color: rgba(255,0,0,0.13)}*/
